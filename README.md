@@ -20,38 +20,38 @@
 
 ## 📊 Формат входных данных
 
--1. Файл продаж data/sales.csv
+1. Файл продаж data/sales.csv
 date,store_id,order_id,product_id,product_name,category,qty,price,discount,cost
 2024-01-01,S01,ORD1001,P001,Смартфон iPhone 14,Электроника,1,89999.99,0.1,45000
 2024-01-01,S01,ORD1001,P002,Наушники AirPods,Электроника,2,19999.99,0,8000
 
 - Обязательные колонки:
 
--date (YYYY-MM-DD) - дата продажи
--store_id (S01, S02...) - ID магазина
--order_id - номер заказа
--product_id - ID товара
--product_name - название товара
--category - категория товара
--qty (int) - количество
--price (float) - цена за единицу
--discount (float, 0..1) - доля скидки
--cost (float) - себестоимость за 1 шт.
+- date (YYYY-MM-DD) - дата продажи
+- store_id (S01, S02...) - ID магазина
+- order_id - номер заказа
+- product_id - ID товара
+- product_name - название товара
+- category - категория товара
+- qty (int) - количество
+- price (float) - цена за единицу
+- discount (float, 0..1) - доля скидки
+- cost (float) - себестоимость за 1 шт.
 
--2. Файл магазинов data/stores.csv
--store_id,city,format
--S01,Москва,offline
--S02,Санкт-Петербург,offline
--S03,Online,online
+2. Файл магазинов data/stores.csv
+- store_id,city,format
+- S01,Москва,offline
+- S02,Санкт-Петербург,offline
+- S03,Online,online
 
 ## 📈 Формируемые отчёты
--Отчёт A: Итоги по дням (output/report_daily.csv)
--date - дата
--total_orders - количество заказов
--total_revenue - общая выручка
--total_profit - общая прибыль
--avg_check - средний чек
--Отчёт B: Итоги по магазинам (output/report_stores.csv)
+- Отчёт A: Итоги по дням (output/report_daily.csv)
+- date - дата
+- total_orders - количество заказов
+- total_revenue - общая выручка
+- total_profit - общая прибыль
+- avg_check - средний чек
+- Отчёт B: Итоги по магазинам (output/report_stores.csv)
 store_id, city, format - информация о магазине
 
 total_revenue - выручка магазина
