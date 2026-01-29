@@ -45,41 +45,36 @@ date,store_id,order_id,product_id,product_name,category,qty,price,discount,cost
 - S03,Online,online
 
 ## 📈 Формируемые отчёты
-- Отчёт A: Итоги по дням (output/report_daily.csv)
+
+**Отчёт A: Итоги по дням (output/report_daily.csv)**
+  
 - date - дата
 - total_orders - количество заказов
 - total_revenue - общая выручка
 - total_profit - общая прибыль
 - avg_check - средний чек
-- Отчёт B: Итоги по магазинам (output/report_stores.csv)
-store_id, city, format - информация о магазине
 
-total_revenue - выручка магазина
+**Отчёт B: Итоги по магазинам (output/report_stores.csv)**
 
-total_profit - прибыль магазина
+- store_id, city, format - информация о магазине
+- total_revenue - выручка магазина
+- total_profit - прибыль магазина
+- orders_count - количество заказов
+- top_category - топовая категория по выручке
 
-orders_count - количество заказов
+**Отчёт C: Топ товаров (output/report_top_products.csv)**
 
-top_category - топовая категория по выручке
+**Топ-10 товаров по выручке:**
 
-Отчёт C: Топ товаров (output/report_top_products.csv)
-Топ-10 товаров по выручке:
+-product_id, product_name, category
+-revenue, profit, qty_sum
 
-product_id, product_name, category
+**Отчёт D: Категории (output/report_categories.csv)**
 
-revenue, profit, qty_sum
-
-Отчёт D: Категории (output/report_categories.csv)
-category - категория товара
-
-revenue - выручка по категории
-
-profit - прибыль по категории
-
-share_revenue - доля выручки от общей
-
-Сводный Excel отчёт (output/summary_report.xlsx)
-Все отчёты в одном файле с дополнительными листами.
+-category - категория товара
+-revenue - выручка по категории
+-profit - прибыль по категории
+-share_revenue - доля выручки от общей
 
 ## 📊 Визуализации
 **Система автоматически строит и сохраняет в папку charts/:**
