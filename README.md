@@ -143,9 +143,13 @@
 - Генерация Excel файла со сводкой
 - Консольный вывод итогов
 
+<img width="1920" height="1043" alt="Снимок экрана (877)" src="https://github.com/user-attachments/assets/c190184c-8f29-4266-b868-8f16a2be3f97" />
+
+
 **plotting.py - Визуализация**
 - Построение графиков выручки и прибыли
 <img width="2284" height="1077" alt="top_categories" src="https://github.com/user-attachments/assets/68060352-4205-4275-ae98-5366fb24b56d" />
+<img width="2684" height="1768" alt="sales_dashboard" src="https://github.com/user-attachments/assets/1c668385-732a-472f-bf06-89e811a11acd" />
 
 
 
