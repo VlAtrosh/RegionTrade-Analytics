@@ -145,6 +145,9 @@
 
 **plotting.py - Визуализация**
 - Построение графиков выручки и прибыли
+<img width="2284" height="1077" alt="top_categories" src="https://github.com/user-attachments/assets/68060352-4205-4275-ae98-5366fb24b56d" />
+
+
 
 
 ## 📋 Технические требования
