@@ -66,15 +66,15 @@ date,store_id,order_id,product_id,product_name,category,qty,price,discount,cost
 
 **Топ-10 товаров по выручке:**
 
--product_id, product_name, category
--revenue, profit, qty_sum
+- product_id, product_name, category
+- revenue, profit, qty_sum
 
 **Отчёт D: Категории (output/report_categories.csv)**
 
--category - категория товара
--revenue - выручка по категории
--profit - прибыль по категории
--share_revenue - доля выручки от общей
+- category - категория товара
+- revenue - выручка по категории
+- profit - прибыль по категории
+- share_revenue - доля выручки от общей
 
 ## 📊 Визуализации
 **Система автоматически строит и сохраняет в папку charts/:**
