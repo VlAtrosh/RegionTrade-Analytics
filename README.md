@@ -25,6 +25,11 @@ date,store_id,order_id,product_id,product_name,category,qty,price,discount,cost
 2024-01-01,S01,ORD1001,P001,Смартфон iPhone 14,Электроника,1,89999.99,0.1,45000
 2024-01-01,S01,ORD1001,P002,Наушники AirPods,Электроника,2,19999.99,0,8000
 
+csv
+date,store_id,order_id,product_id,product_name,category,qty,price,discount,cost
+2024-01-01,S01,ORD1001,P001,Смартфон iPhone 14,Электроника,1,89999.99,0.1,45000
+2024-01-01,S01,ORD1001,P002,Наушники AirPods,Электроника,2,19999.99,0,8000
+
 - Обязательные колонки:
 
 - date (YYYY-MM-DD) - дата продажи
