@@ -1,0 +1,7 @@
+store_id,city,format,total_revenue,total_profit,orders_count,top_category
+S04,Online,online,137718.95,41510.84,141,Электроника
+S03,Online,online,134500.48,37135.76,133,Электроника
+S06,Online,online,130035.6,43937.06,130,Электроника
+S01,Online,online,127428.64,33408.13,122,Электроника
+S02,Новосибирск,offline,98412.19,32186.88,127,Электроника
+S05,Москва,offline,91343.45999999999,25828.05,117,Электроника
